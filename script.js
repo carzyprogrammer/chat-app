@@ -11,8 +11,7 @@ function sendsms(){
         name1=document.getElementById("user1").value;
         mydiv.append(name1);
         document.getElementById("user1").value="";
-        const chars = text.split("");
-        document.getElementById("ansbox").innerHTML= chars[1]; 
+        
         
     }
     else if(user2!=""){
@@ -24,8 +23,7 @@ function sendsms(){
         name2=document.getElementById("user2").value;
         mydiv.append(name2);
         document.getElementById("user2").value="";
-        const chars = text.split("");
-        document.getElementById("ansbox").innerHTML= chars[1]; 
+       
         
     }
 }
